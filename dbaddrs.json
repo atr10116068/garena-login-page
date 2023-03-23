@@ -1,0 +1,10 @@
+{
+    "apiKey": "AIzaSyCRLXLOFyLv9WZsnYQVg1LewYeGkyboExo",
+    "authDomain": "blingdnc.firebaseapp.com",
+    "databaseURL":"https://blingdnc-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "projectId": "blingdnc",
+    "storageBucket": "blingdnc.appspot.com",
+    "messagingSenderId": "408464839397",
+    "appId": "1:408464839397:web:449b41c796a207005afa0c"
+}
+
